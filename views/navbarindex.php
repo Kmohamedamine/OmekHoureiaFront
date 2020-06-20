@@ -14,7 +14,9 @@
           <ul class="nav navbar-nav">
             <li><a href="">Home</a></li>
             <li><a href="aboutus.php">About</a></li>
-
+<li>
+              <a href="views/reservation.html">Reserver une table</a>
+                    </li>
           </ul>
 
 <?php

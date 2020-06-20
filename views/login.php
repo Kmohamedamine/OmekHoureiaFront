@@ -88,6 +88,9 @@ if (isset($_POST['submit'])) {
             <li><a href="../">Home</a></li>
             <li><a href="aboutus.php">A propos</a></li>
             <li><a href="contactus.php">Contactez-nous!</a></li>
+            <li>
+              <a href="reservation.html">Reserver une table</a>
+                    </li>
           </ul>
 
           <ul class="nav navbar-nav navbar-right">

@@ -63,7 +63,7 @@ header("location: login.php"); //Redirecting to myrestaurant Page
             <li><a href="../">Home</a></li>
             <li><a href="aboutus.php">About</a></li>
 <li>
-              <a href="reservation.html">Réserver une table</a>
+              <a href="reservation.html">Reserver une table</a>
                     </li>
           </ul>
 

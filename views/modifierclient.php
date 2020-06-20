@@ -35,6 +35,9 @@ $profil=$profil["0"];
             <li><a href="../index.php">Home</a></li>
             <li><a href="aboutus.php">About</a></li>
             <li><a href="contactus.php">Contact Us</a></li>
+            <li>
+              <a href="reservation.html">Reserver une table</a>
+                    </li>
           </ul>
 
           <ul class="nav navbar-nav navbar-right">
