@@ -9,7 +9,8 @@ class client{
 	private $mail_client;
 	private $adresse_client;
 	private $datenaissance_client;
-	function __construct($nom_client,$prenom_client,$password_client,$tel_client,$username_client,$mail_client,$adresse_client,$datenaissance_client){
+	private $image;
+	function __construct($nom_client,$prenom_client,$password_client,$tel_client,$username_client,$mail_client,$adresse_client,$datenaissance_client,$image){
 		
 		$this->nom_client=$nom_client;
 		$this->prenom_client=$prenom_client;
@@ -19,6 +20,7 @@ class client{
 		$this->mail_client=$mail_client;
 		$this->adresse_client=$adresse_client;
 		$this->datenaissance_client=$datenaissance_client;
+		$this->image=$image;
 	}
 	
 	function getid_client(){
@@ -48,6 +50,9 @@ class client{
 	function getdatenaissance_client(){
 		return $this->datenaissance_client;
 	}
+	function getimage(){
+		return $this->image;
+	}
 
 
 	function setnom_client($nom_client){
@@ -73,6 +78,9 @@ class client{
 	}
 	function setdatenaissance_client($datenaissance_client){
 		 $this->datenaissance_client=$datenaissance_client;
+	}
+	function setimage($image){
+		$this->image=$image;
 	}
 	
 }
