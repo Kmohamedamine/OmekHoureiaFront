@@ -3,7 +3,6 @@ session_start();
 require 'connection.php';
 $conn = Connect();
 if(!isset($_SESSION['username'])){
-header("location: login.php"); //Redirecting to myrestaurant Page
 }
 ?>
 
@@ -221,7 +220,7 @@ if(isset($_POST["add"]))
     );
     $_SESSION["cart"][0] = $item_array;
   }
-  echo '<script>window.location.href = "http://localhost:8080/OmekHoureiaFront/views/cart.php";</script>';
+  echo '<script>window.location.href = "http://localhost/OmekHoureiaFront/views/cart.php";</script>';
 }
 if(isset($_GET["action"]))
 {
